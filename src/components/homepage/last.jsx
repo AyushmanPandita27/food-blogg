@@ -44,6 +44,84 @@ const Last = ()=>{
          color: "#646874" 
     }}>(904)443-0343</p>
 </div>
+<div className="more">
+    <h2 style={{
+        fontFamily: "Source Sans Pro",
+        fontStyle:"normal",
+        fontSize: "18.843px",
+        fontWeight: 600,
+        lineHeight: "27px" ,
+        lineSpacing:"0.03em",
+        color: "#0E2368" 
+    }}>More</h2>
+</div>
+<div className="more1">
+    <p style={{
+        fontFamily: "Source Sans Pro",
+        fontStyle:"normal",
+        fontSize: "14.65px",
+        fontWeight: 400,
+        lineHeight: "27px" ,
+        color: "#646874" 
+    }}>About Us</p>
+</div>
+<div className="more2">
+    <p style={{
+        fontFamily: "Source Sans Pro",
+        fontStyle:"normal",
+        fontSize: "14.65px",
+        fontWeight: 400,
+        lineHeight: "27px" ,
+        color: "#646874" 
+    }}>Products</p>
+</div>
+<div className="more3">
+    <p style={{
+        fontFamily: "Source Sans Pro",
+        fontStyle:"normal",
+        fontSize: "14.65px",
+        fontWeight: 400,
+        lineHeight: "27px" ,
+        color: "#646874" 
+    }}>Career</p>
+</div>
+<div className="more4">
+    <p style={{
+        fontFamily: "Source Sans Pro",
+        fontStyle:"normal",
+        fontSize: "14.65px",
+        fontWeight: 400,
+        lineHeight: "27px" ,
+        color: "#646874" 
+    }}>Contact Us</p>
+</div>
+<div className="social-link">
+<h2 style={{
+        fontFamily: "Source Sans Pro",
+        fontStyle:"normal",
+        fontSize: "18.843px",
+        fontWeight: 600,
+        lineHeight: "27px" ,
+        lineSpacing:"0.03em",
+        color: "#0E2368" 
+    }}>Social Links</h2>
+</div>
+
+<div >
+<img className="ig" alt="insta" src="https://cdn-icons-png.flaticon.com/512/87/87390.png?w=360"/>
+<img className="twitter" alt="insta" src="https://cdn-icons-png.flaticon.com/512/81/81609.png"/>
+<img className="fb" alt="insta" src="https://cdn-icons-png.flaticon.com/512/59/59439.png"/>
+</div>
+<div className="final-div">
+<p style={{
+        fontFamily: "Roboto",
+        fontStyle:"normal",
+        fontSize: "14.65px",
+        fontWeight: 400,
+        lineHeight: "25px" ,
+        color: "#828B9C" 
+    }}>© 2022 Food Truck Example</p>
+</div>
         </div>
     );
 }

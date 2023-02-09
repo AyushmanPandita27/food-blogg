@@ -49,7 +49,7 @@ const Latest =() =>{
             </div>
        
         <div>
-        <button className="read">Explore Now</button>
+        <button className="read">Read More</button>
             </div>
                         </div>
                 );

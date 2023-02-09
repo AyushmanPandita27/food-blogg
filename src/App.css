@@ -28,18 +28,20 @@ height: 83px;
   height: 55px;   
 }
 .button{
+
   position:absolute;
   Width:190px;
 Height:63px;
 Top:556px;
 Left:97px;
 border-radius:34px;
-Padding:14px, 34px, 14px, 34px;
+Padding:14px, 34px;
 Gap:7px;
 background-color:#E23744;
 color: white;
 letter-spacing: 0.01em;
-
+border-style: none;
+cursor: pointer;
 }button:hover{
   flex: none;
   order: 0;
@@ -57,19 +59,20 @@ border-bottom-left-radius: 198.9px;
 }
 .touch{
   position:absolute;
-  width: 99px;
-  right:530px;
+ 
+  left: 1300px;
 top: 35px;
-
-
+height:36px;
+cursor: pointer;
 Height:63px;
 
 border-radius:34px;
+border-color: white;
 Padding:14px, 34px, 14px, 34px;
 Gap:7px;
 background-color:#E23744;
 color: white;
-letter-spacing: 0.01em;
+letter-spacing: 0.03em;
 
 font-family: Source Sans Pr;
     font-style:normal;
@@ -128,6 +131,7 @@ Height:138px;
 Top:346.41px;
 left:789px;
 right:204px;
+
 }
 .btn-lpsm{
   position:absolute;
@@ -138,7 +142,8 @@ Left:787px;
 right:543px;
 background-color:#E23744 ;
 border-radius:21px;
-
+border-style: none;
+cursor: pointer;
 }
 .latest{
   position: absolute;
@@ -236,9 +241,9 @@ border-radius: 21px;
 top: 1766px;
 }
 
-.card-container:hover {
+/* .card-container:hover {
   transform: scale(1.05);
-}
+} */
 .title{
   position:absolute;
   width: 285px;
@@ -269,7 +274,7 @@ color: #0E2368;
   width: 79px;
 height: 36px;
 top:530.92px;
-
+cursor: pointer;
 border-radius:21px;
 
 color: #424961;
@@ -321,4 +326,88 @@ width: 91px;
 height: 23px;
 left: 475px;
 top: 247px;
+}
+.more{
+  position: absolute;
+width: 43px;
+height: 27px;
+left: 899px;
+top: 84px;
+
+}
+.more1{
+  position: absolute;
+width: 75px;
+height: 26px;
+left: 899px;
+top: 124px;
+
+}
+
+.more2{
+  position: absolute;
+width: 75px;
+height: 26px;
+left: 899px;
+top: 164px;
+
+}
+.more3{
+  position: absolute;
+width: 75px;
+height: 26px;
+left: 899px;
+top: 204px;
+
+}
+.more4{
+  position: absolute;
+width: 75px;
+height: 26px;
+left: 899px;
+top: 244px;
+
+}
+.social-link{
+  position: absolute;
+width: 129px;
+height: 27px;
+left: 1208px;
+top: 84px;
+}
+
+.ig{
+  position: absolute;
+left: 1208px;
+right: 14.65%;
+top: 140px;
+bottom: 26.45%;
+width:21px;
+height:21px;
+}
+.twitter{
+  position: absolute;
+left: 1265px;
+right: 14.65%;
+top: 140px;
+bottom: 26.45%;
+width:21px;
+height:21px;
+}
+.fb{
+  position: absolute;
+left: 1322px;
+right: 14.65%;
+top: 140px;
+bottom: 26.45%;
+width:21px;
+height:21px;
+
+}
+.final-div{
+  position: absolute;
+  width: 197px;
+  height: 25px;
+ right: 104px;
+  top: 244px;
 }
